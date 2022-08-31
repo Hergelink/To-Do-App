@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('includes/head') %>
+  <body class="h-screen">
+    <%- include('includes/header') %>
+    <main class="flex justify-center h-full">
+      <div id="container" class="bg-indigo-200 w-11/12 h-4/6 mt-10 rounded-md overflow-y-auto">
+        <form action="" class="flex flex-col content-center">
+          <label for="user-input" class="text-center block mt-2 text-gray-700 text-lg font-bold mb-2"
+            >Enter your items below</label
+          >
+          <input
+            type="text"
+            id="user-input"
+            class="m-auto shadow appearance-none border rounded w-11/12 py-1 px-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          />
+          <button
+            class="w-1/4 m-auto mt-2 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+          >
+            Add
+          </button>
+        </form>
+        <div id="list-container" class="w-4/5 m-auto">
+          <ul id="list" class="mt-10 ml-5">
+            
+          </ul>
+          <button id="clear-all" class="w-3/4 block m-auto mt-5 bg-transparent hover:bg-red-500 text-red-500 font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded md:w-1/4">Clear All</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+
+}
+
+.list-item {
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    padding: 5px;
+    cursor: pointer;
+    overflow: auto; 
+    
+}
+
+.delete-btn {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
+
+.checked {
+    color: black;
+    background-color: red;
+}
+
+
